@@ -92,15 +92,24 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
-    padding: 4em 1.25em 1.4em;
+    padding: 1em 1.25em .4em;
     color: #fff;
     grid-area: hero;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .hero__date {
     font-size: .70rem;
     margin: 0 0 .3em;
     
+}
+
+.hero__text {
+    /* outline: 2px solid red; */
+    max-width: 90%;
+
 }
 
 .hero__text h1 {
@@ -228,6 +237,21 @@ body {
         "foot foot foot foot foot";
     
     }
+
+    .hero__text {
+        /* outline: 2px solid red; */
+        max-width: 66%;
+        
+    }
+
+    .hero__text > h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero__date {
+        font-size: 1rem;
+        
+    } 
 
     .blogs {
         display: grid;
