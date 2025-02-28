@@ -15,7 +15,6 @@ body {
 body {
     display: grid;
     grid-template-columns: 1em 1fr 1em;
-   /*  grid-auto-rows: 375px; */
     grid-template-areas: 
         ". head ."
         "hero hero hero"
@@ -233,16 +232,9 @@ body {
     .blogs {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        /* justify-content: space-evenly; */
         column-gap: 1.5em;
     }
 
-/* 
-    .blog__card {
-        
-        max-width: 310px;
-        
-    } */
 
     .view-more {
         margin-top: 2.5em;
@@ -254,4 +246,3 @@ body {
 }
 
 
-/* In the learning Blog project, I have set up a grid-area one column in mobile and three in wide screens. When in How do you get a single  blog-post to span only 1 column and not starting on a new row, without renaming them individually in gridareas? */
